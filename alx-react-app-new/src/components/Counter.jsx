@@ -8,8 +8,8 @@ function Counter(){
         <>
         <div>
             <p>Current count is {count}</p>
-            <button onClick={() => setCount (count + 1)} style={{ fontWeight: "bolder", fontSize: '20px'}}>+ </button>
-            <button onClick={() => setCount (count- 1 )} style={{fontWeight : "bolder", fontSize : '20px'}}>- </button>
+            <button onClick={() => setCount (count + 1)} style={{ fontWeight: "bolder", fontSize: '20px'}}>Increment</button>
+            <button onClick={() => setCount (count- 1 )} style={{fontWeight : "bolder", fontSize : '20px'}}>Decrement</button>
             <button onClick={() => setCount(0)} style={{ fontWeight: "bolder", fontSize: '20px'}}>Reset</button>
         </div>
         </>
