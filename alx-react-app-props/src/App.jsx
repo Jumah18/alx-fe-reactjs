@@ -24,6 +24,8 @@ function App() {
 
 export default App;
 
+// src/App.jsx doesn't contain: ["UserContext.Provider", "value"]
+
 // import { useState } from 'react'
 // import './App.css'
 // import { UserProvider } from './context/UserContext'
