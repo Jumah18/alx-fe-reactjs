@@ -72,6 +72,8 @@ const RegistrationForm = () => {
     </form>
   );
 };
+// ["value={username}", "value={email}", "value={password}"]
+// ["if (!username", "if (!email)", "if (!password)"]
 
 // ["value={username}", "value={email}", "value={password}"]
 
