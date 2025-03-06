@@ -13,4 +13,6 @@ const DeleteRecipeButton = ({ recipeId }) => {
   );
 };
 
+// ["useNavigate"]
+
 export default DeleteRecipeButton;
