@@ -34,4 +34,6 @@ const PostsComponent = () => {
   );
 };
 
+// ["isError"]
+
 export default PostsComponent;
