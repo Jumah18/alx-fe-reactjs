@@ -66,4 +66,6 @@ const RegistrationForm = () => {
   );
 };
 
+// ["value={username}", "value={email}", "value={password}"]
+
 export default RegistrationForm;
