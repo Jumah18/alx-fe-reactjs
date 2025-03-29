@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { fetchUserData } from '../services/githubService';
 
+
 const SearchUser = () => {
     const [username, setUsername] = useState('');
     const [userData, setUserData] = useState(null);
@@ -45,3 +46,6 @@ const SearchUser = () => {
 };
 
 export default SearchUser;
+
+// ["onSubmit", "preventDefault", "form"]
+// ["login", "Looks like we cant find the user"]
